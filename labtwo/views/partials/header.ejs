@@ -16,25 +16,16 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/products">Products</a>
+          <a class="nav-link" href="/views/ken1">Ken, First of His Name</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/views/ken2">Ken II</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/views/ken3">Ken III</a>
         </li>
       </ul>
 
-      <ul class="navbar-nav">
-        <% if ( !authenticated ) { %>
-          <li class="nav-item">
-            <a class="nav-link" href="/sessions/new">Login</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/users/new">Register</a>
-          </li>
-        <% } else { %>
-          <li class="nav-item">
-            <a class="nav-link" href="/sessions/delete">Logout</a>
-          </li>
-        <% } %>
-      </ul>  
     </nav>
 
     <% if ( locals.messages && messages.length > 0 ) { %>
