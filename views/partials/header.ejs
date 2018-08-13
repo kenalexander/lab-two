@@ -9,24 +9,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/views/ken1">Ken, First of His Name</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/views/ken2">Ken II</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/views/ken3">Ken III</a>
-        </li>
-      </ul>
-
-    </nav>
+    
 
     <% if ( locals.messages && messages.length > 0 ) { %>
       <div class="alert alert-danger">
@@ -41,6 +24,23 @@
         <div class="jumbotron">
           <h1><center><%= title %></center></h1>
         </div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/views/ken1">Ken, First of His Name</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/views/ken2">Ken II</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/views/ken3">Ken III</a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
     </div>
